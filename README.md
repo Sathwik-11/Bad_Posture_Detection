@@ -1,4 +1,4 @@
-# bad-posture-detection
+# Bad-Posture-Detection
 
 Real-time sitting posture monitoring from a **side-mounted webcam** (sagittal
 plane), with a push notification every 6 hours summarising how long you
