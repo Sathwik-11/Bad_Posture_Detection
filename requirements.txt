@@ -1,0 +1,14 @@
+# Upper bounds are capped at the next major version. This app is coupled to
+# mediapipe's Tasks API (PoseLandmarker, detect_for_video, model_asset_buffer)
+# which replaced the old mp.solutions API in the 1.0 release -- an uncapped
+# `mediapipe>=1.0.0` risks a future major mediapipe release silently breaking
+# posture_detector.py on a fresh `pip install`. Versions below are the ones
+# this project was built and tested against.
+mediapipe>=1.0.1,<2.0.0
+opencv-python>=4.9.0,<6.0.0
+numpy>=1.26.0,<3.0.0
+APScheduler>=3.10.4,<4.0.0
+requests>=2.31.0,<3.0.0
+plyer>=2.1.0,<3.0.0
+python-dotenv>=1.0.1,<2.0.0
+pytest>=8.0.0,<10.0.0

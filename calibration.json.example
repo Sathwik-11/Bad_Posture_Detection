@@ -1,0 +1,11 @@
+{
+  "calibrated_at": "2026-09-22T09:15:42.123456+00:00",
+  "baseline_cva": 58.4,
+  "baseline_torso": 7.2,
+  "side_used": "right",
+  "samples": 143,
+  "cva_good": 53.4,
+  "cva_bad": 48.4,
+  "torso_good": 12.2,
+  "torso_bad": 17.2
+}
